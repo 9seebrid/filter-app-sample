@@ -1,0 +1,45 @@
+/* Tablet Media Query Style */
+
+@media screen and (max-width: 1024px) {
+  .filter-btns{width: 100%; display: block;}
+  .filter-btns .filter-btn{width: 33.33%; margin-bottom:0.25rem}
+
+  .filter-images{
+    width: 100%;
+    justify-content: center;
+      }
+
+  .filter-images .filter-image{
+    width: 30%;
+    display: flex;
+  }
+
+  
+}
+
+@media screen and (max-width: 768px) {
+  .filter-btns{width: 100%; display: block;}
+  .filter-btns .filter-btn{width: 50%; margin-bottom:0.25rem}
+
+
+  .filter-images{width: 50%; justify-content: center;}
+  .filter-images .filter-image{width: 100%; display: flex}
+
+
+}
+  
+@media screen and (max-width: 510px) {
+  .filter-btns{width: 100%; display: block;}
+  .filter-btns .filter-btn{width: 100%; margin-bottom:0.25rem}
+
+  .filter-images{
+    width: 100%;
+    justify-content: center;
+      }
+
+  .filter-images .filter-image{
+    width: 70%;
+    display: flex;
+  }
+
+}
